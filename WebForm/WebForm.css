@@ -1,0 +1,126 @@
+
+body{
+    background-color: rgba(0, 0, 36, 0.937);
+}
+.GamerHub{
+    padding: 20px;
+    margin: 3px 10px;
+    background-color:  rgb(0, 0, 0) ;
+    color: rgb(20, 134, 235);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align:center ;
+
+}
+nav{
+    background-color: black;
+    display: flex;
+    padding: 15px;
+}
+    .Text{
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        margin: 1px 15px;
+        padding: 5px 10px;
+    }
+    .B{
+        padding: 10px 15px;
+        text-align: center;
+        border: 3px solid none ;
+        margin: 5px;
+        color: aliceblue;
+        border-radius: 10px;
+        background-color: rgb(20, 20, 20, 0);
+        outline: none;
+        cursor: pointer;
+        animation: pulse 5s infinite alternate;
+        transition: all 0.5s; 
+    }
+    .B:hover {
+        transform: scale(1.2); 
+        background-color: rgb(220, 220, 220, 0.7);
+        animation: none;
+      }
+@keyframes pulse {
+        0% {
+          border-color: #00f; 
+        }
+        25%{
+            border-color: aqua;
+        }
+        50%{
+            border-color: greenyellow;
+        }
+        75%{
+            border-color: chocolate;
+        }
+        100% {
+          border-color: #f00; /* رنگ حاشیه به انتهایی */
+        }
+      }
+
+section{
+    padding: 40px 30px;
+    
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);  
+    margin: 100px 10px; 
+}
+#Products{
+    background-color: rgba(137, 192, 251, 0.6);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    #Gaming{
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      text-wrap: wrap;
+
+    }
+}
+#section{
+    text-align: left;
+    #Sliderimage{
+        width: 300px;
+        height: 300px;
+        margin-left: 35%;
+    }
+
+    
+}
+footer{
+    padding: 50px;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    background-color: rgba(0, 0, 36, 0.848);
+}
+.footerIteam{
+    border: 2px solid rgb(244, 201, 145) ;
+    margin: 10px;
+    padding: 1px;
+    background-color: rgb(244, 201, 145);
+}
+#AboutUs{
+    background-color: rgba(193, 167, 237, 0.425);
+    
+}
+
+#Button{
+    padding: 12px 10px;
+    background-color: rgb(42, 42, 251);
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    margin: 2%;
+}
+ #Button:hover{
+    background-color: rgb(85, 123, 250);
+ }
+ #service{
+    background-color: rgba(137, 192, 251, 0.6); 
+ }
